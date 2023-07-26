@@ -1,0 +1,14 @@
+.vscode
+.history
+node_modules
+dist
+build-pre
+package-lock.json
+*.sublime-workspace
+.bash_profile
+yarn.lock
+
+### Node template
+# Logs
+logs
+*.log

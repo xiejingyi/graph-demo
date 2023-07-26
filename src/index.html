@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>graph-demo</title>
+</head>
+<style>
+    /* .link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 2px;
+    }
+
+    .node {
+        fill: #00f;
+        stroke: #fff;
+        stroke-width: 2px;
+    }*/
+    .container {
+        width: 800px;
+        height: 600px;
+    } 
+
+    .node rect {
+        fill: #00f;
+        stroke: #fff;
+        stroke-width: 2px;
+        rx: 10px;
+        ry: 10px;
+    }
+
+    .node text {
+        font: 12px sans-serif;
+        fill: white;
+        text-anchor: middle;
+        dominant-baseline: middle;
+    }
+
+    .link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 1.5px;
+    }
+</style>
+<body>
+<svg id="container" class="container"></svg>
+<script src="bundle.js"></script>
+</body>
+</html>
